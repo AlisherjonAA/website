@@ -125,9 +125,7 @@ header{
   display: none;
 }
 .slider{
-  /*background-image: url(../bugun/orig.jpg);*/
   background-image: url(https://asiatrucks.uz/wp-content/uploads/2020/04/banner-1280x700.jpg);
-  /*background-image: url(../bugun/tans.jpg);*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -343,7 +341,6 @@ header{
   margin-right: 60px;
 }
 .about{
-  /*background-image: url(../bugun/150731181755-dengue-insecticide-spraying-super-169.jpg);*/
   background-image: url(../bugun/about.jpg);
   background-size: cover;
   background-position: center;
@@ -387,7 +384,6 @@ header{
 }
 .form__inner{
   padding-bottom: 40px;
-  /*background-image: url(../bugun/remove.png);*/
   background-image: url(../bugun/truck2.png);
   min-height: 460px;
   background-repeat: no-repeat;
@@ -509,7 +505,6 @@ header{
 }
 .advantages{
   padding: 55px 0px 40px;
-  /*background-image: url(../bugun/shutterstock_7914240.jpg);*/
   background-image: url(../bugun/truck1.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -548,32 +543,10 @@ header{
   width: 70px;
   height: 70px;
   background-size: 100%;
-  /*border: 2px solid var(--main-color;*/
   top: -10px;
   left: 50%;
   transform: translateX(-50%);
 }
-/*.advantages__title:before{
-  content: "";
-  position: absolute;
-  width: 70px;
-  height: 70px;
-  background: url("../bugun/безапасность.png");
-  background-size: 100%;
-  border: 2px solid var(--main-color;
-  top: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-}*/
-/*.advantages__title:after{
-  content: "\f00c";
-  font-family: 'icomoon';
-  font-size: 14px;
-  position: absolute;
-  top: 9px;
-  left: 50%;
-  transform: translateX(-50%);
-}*/
 .advantages__text{
   line-height: 24px;
   color: #fff;

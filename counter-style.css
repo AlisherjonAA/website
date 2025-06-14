@@ -26,13 +26,11 @@
   padding-bottom: 20px;
 } */
 .counter__up{
-  /* background: url("./bugun/fon.jpg") no-repeat;
-  background-size: cover; */
+  /* background-size: cover; */
   /* background-attachment: fixed; */
 
 }
 .counter-up{
-  /* background: url("./bugun/fon.jpg") no-repeat; */
   min-height: 50vh;
   /* background-size: cover;
   background-attachment: fixed; */
