@@ -368,7 +368,7 @@ header{
   font-family: 'Roboto', sans-serif;
 }
 .about__text{
-  width: 545px;
+  max-width: 545px;
   text-align: right;
   margin-bottom: 30px;
   letter-spacing: 0.1px;
