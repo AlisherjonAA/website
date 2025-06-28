@@ -237,26 +237,26 @@
             </div>
           </div>
           <div class="form__box">
-            <form>
+            <form id="fullInfo">
               <div class="form__box-inner">
                 <div class="form__box-left">
                   <label>
                     E-mail
-                    <input type="text">
+                    <input name="email" type="text">
                   </label>
                   <label>
                     Phone number
-                    <input type="text">
+                    <input name="phone" type="text">
                   </label>
                   <label>
                     Name
-                    <input type="text">
+                    <input name="name2" type="text">
                   </label>
                 </div>
                 <div class="form__box-right">
                   <label>
                     Message
-                    <textarea></textarea>
+                    <textarea name="info"></textarea>
                   </label>
                   <button class="default-btn" type="submit">Go</button>
                 </div>
@@ -336,9 +336,9 @@
   </div>
 
   <div id="modal">
-    <form>
-      <input type="text" placeholder="Name">
-      <input type="text" placeholder="Phone number or tg username">
+    <form id="myForm">
+      <input type="text" name="name1" placeholder="Name">
+      <input type="text" name="phone_number" placeholder="Phone number or tg username">
       <input type="submit" value="Send">
     </form>
   </div>
@@ -347,11 +347,11 @@
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/jquery.formstyler.min.js"></script>
-  <script src="js/main.js"></script>
   <!-- <title>Counter up Animation on Scroll | AS-Groop</title> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
 
+  <script src="js/main.js"></script>
     <script>
       $(document).ready(function(){
         $('.counter').counterUp({
